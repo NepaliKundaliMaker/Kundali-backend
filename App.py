@@ -1,3 +1,4 @@
+from district_coords import get_coords
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from district_coords import get_coords
